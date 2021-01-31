@@ -78,6 +78,13 @@ body {
 .table tr:first-child {
     background: #d35400;
 }
+.table-wrapper .table caption {
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    background: green;
+    font-weight: bold;
+}
 .our-agency-all-member .description {
     color: #ffffff;
 }
