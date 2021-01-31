@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background: #231F20;
+  text-align: center;
+}
+
+.heading {
+  color: #FFF;
+  font-family: 'Oswald';
+  font-weight: 700;
+  position: relative;
+  margin: 30px auto;
+  text-transform: uppercase;
+  width: 340px;
+}
+
+.heading:before, .heading:after {
+  background: #D4CD36;
+  content:"";
+  display: block;
+  height: 30px;
+  position: absolute;
+  width: 25px;
+}
+
+.heading:before {  
+  left: 0;
+  top: 9px;
+  border-radius: 90px 0 0 90px;
+}
+
+.heading:after {
+  right: 0;
+  top: 9px;
+  border-radius: 0 90px 90px 0;
+}
+.header-section {
+    width: 100%;
+    background: red;
+}
+.table-wrapper .table {
+    width: 100%;
+}
+.table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    padding: 15px;
+    color: #ffffff;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.our-agency-all-member h1 {
+    color: #ffffff;
+}
+
+.our-agency-all-member {
+    background: red;
+}
+
+.our-agency-all-member .single-team-member {
+    height: 100px;
+    width: 28%;
+    border: 1px solid green;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+.table tr:nth-child(even) {
+    background: green;
+}
+.table tr:first-child {
+    background: #d35400;
+}
+.our-agency-all-member .description {
+    color: #ffffff;
+}
